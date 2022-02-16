@@ -4,14 +4,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/csivitu/Template">
-    <img src="https://csivit.com/images/favicon.png" alt="Logo" width="80">
+  <a href="https://ethwmn.devfolio.co/">
+    <img src="https://devfolio.co/blog/content/images/size/w2000/2021/11/EWF_Cover.jpg" alt="Logo" width="300">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">ETHWMN Fellowship Coursework</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    Documenting my progress through this fellowship
     <br />
     <a href="https://github.com/csivitu/Template"><strong>Explore the docs »</strong></a>
     <br />
