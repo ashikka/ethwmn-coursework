@@ -1,0 +1,13 @@
+[
+	{
+		"from": "0xd9145CCE52D386f254917e481eB44e9943F39138",
+		"topic": "0x342827c97908e5e2f71151c08502a66d44b6f758e3ac2f1de95f02eb95f0a735",
+		"event": "OwnerSet",
+		"args": {
+			"0": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+			"1": "0xB54B9cEd477270fF917060840C1A812269db55BF",
+			"oldOwner": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+			"newOwner": "0xB54B9cEd477270fF917060840C1A812269db55BF"
+		}
+	}
+]

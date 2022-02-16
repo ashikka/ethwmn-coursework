@@ -1,5 +1,4 @@
-[![csivit][csivitu-shield]][csivitu-url]
-[![Issues][issues-shield]][issues-url]
+
 
 <!-- PROJECT LOGO -->
 <br />
