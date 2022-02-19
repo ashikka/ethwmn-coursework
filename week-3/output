@@ -1,0 +1,189 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 29999943 (0x1c9c347)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+ *** Deployment Failed ***
+
+"Migrations" could not deploy due to insufficient funds
+   * Account:  0x036aE4FdA5dBfd971Dd9639f743d9dC58c8A542d
+   * Balance:  0 wei
+   * Message:  insufficient funds for gas * price + value
+   * Try:
+      + Using an adequately funded account
+      + If you are using a local Geth node, verify that your node is synced.
+
+
+Exiting: Review successful transactions manually by checking the transaction hashes above on Etherscan.
+
+
+Error:  *** Deployment Failed ***
+
+"Migrations" could not deploy due to insufficient funds
+   * Account:  0x036aE4FdA5dBfd971Dd9639f743d9dC58c8A542d
+   * Balance:  0 wei
+   * Message:  insufficient funds for gas * price + value
+   * Try:
+      + Using an adequately funded account
+      + If you are using a local Geth node, verify that your node is synced.
+
+    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/deployer/src/deployment.js:379:1
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Migration._deploy (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:68:1)
+    at Migration._load (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:54:1)
+    at Migration.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:202:1)
+    at Object.runMigrations (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:152:1)
+    at Object.runFrom (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:117:1)
+    at Object.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/migrate/index.js:94:1)
+    at runMigrations (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/run.js:78:1)
+    at setupDryRunEnvironmentThenRunMigrations (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/run.js:68:1)
+    at Object.module.exports [as run] (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/run.js:36:1)
+    at Command.run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/core/lib/command.js:189:1)
+WARNING: Ganache forking only supports EIP-1193-compliant providers. Legacy support for send is currently enabled, but will be removed in a future version _without_ a breaking change. To remove this warning, switch to an EIP-1193 provider. This error is probably caused by an old version of Web3's HttpProvider (or ganache < v7)
+
+truffle(rinkeby)> migrate
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+undefined
+   > block number:        10194864
+   > block timestamp:     1645268710
+   > account:             0x036aE4FdA5dBfd971Dd9639f743d9dC58c8A542d
+   > balance:             0.09803969
+   > gas used:            196031 (0x2fdbf)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00196031 ETH
+
+   -------------------------------------
+   > Total cost:          0.00196031 ETH
+
+
+2_mytoken.js
+============
+
+   Deploying 'AshikkaToken'
+   ------------------------
+undefined
+   > block number:        10194866
+   > block timestamp:     1645268722
+   > account:             0x036aE4FdA5dBfd971Dd9639f743d9dC58c8A542d
+   > balance:             0.08790101
+   > gas used:            968199 (0xec607)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00968199 ETH
+
+   -------------------------------------
+   > Total cost:          0.00968199 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.0116423 ETH
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 29970676 (0x1c950f4)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xacfc9ad6a0050db7c76b36f3eea73f0a115ea5357477f11f34274b8c7f77f5cf
+undefined
+undefined
+undefined
+undefined
+undefined
+   > Blocks: 2            Seconds: 21
+   > contract address:    0x63fC30a29bd6CdD2E90Ec818326a49B64dfDDa60
+   > block number:        10194872
+   > block timestamp:     1645268753
+   > account:             0x036aE4FdA5dBfd971Dd9639f743d9dC58c8A542d
+   > balance:             0.19803969
+   > gas used:            196031 (0x2fdbf)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00196031 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00196031 ETH
+
+
+2_mytoken.js
+============
+
+   Deploying 'AshikkaToken'
+   ------------------------
+   > transaction hash:    0xfc20525663fa7c89c0085203e345ca57c46024c64286981e459d7c03846bfae0
+undefined
+undefined
+   > Blocks: 1            Seconds: 10
+   > contract address:    0xAF06b1f4d7cbe86b70b0DF9737478b765CFC2d70
+   > block number:        10194874
+   > block timestamp:     1645268783
+   > account:             0x036aE4FdA5dBfd971Dd9639f743d9dC58c8A542d
+   > balance:             0.18790101
+   > gas used:            968199 (0xec607)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00968199 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00968199 ETH
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.0232846 ETH
+
+
+WARNING: Ganache forking only supports EIP-1193-compliant providers. Legacy support for send is currently enabled, but will be removed in a future version _without_ a breaking change. To remove this warning, switch to an EIP-1193 provider. This error is probably caused by an old version of Web3's HttpProvider (or ganache < v7)
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
